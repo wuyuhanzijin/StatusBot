@@ -1,0 +1,41 @@
+{
+    "services": [
+        {
+            "name": "凌云·LinYun 博客",
+            "url": "https://www.linyunlink.top/",
+            "method": "normal"
+        },
+        {
+            "name": "凌云·LinYun Twikoo评论后端",
+            "url": "https://twikoo.linyunlink.top/",
+            "method": "normal"
+        },
+        {
+            "name": "凌云·LinYun 状态监控",
+            "url": "https://status.linyunlink.top/",
+            "method": "normal"
+        },
+        {
+            "name": "凌云·LinYun 翻译API",
+            "url": "https://translate.linyunlink.top/",
+            "method": "normal"
+        }
+    ],
+    "links": [
+        {
+            "name": "没用的小废鼠的博客",
+            "url": "https://feishu.xiao-feishu.top/",
+            "method": "normal"
+        },
+        {
+            "name": "Wcowin's Web",
+            "url": "https://wcowin.work/",
+            "method": "normal"
+        },
+        {
+            "name": "清羽飞扬",
+            "url": "https://blog.qyliu.top/",
+            "method": "normal"
+        }
+    ]
+}

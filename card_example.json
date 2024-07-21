@@ -1,0 +1,32 @@
+{
+    "msg_type": "interactive",
+    "card": {
+        "config": {
+            "wide_screen_mode": true
+        },
+        "elements": [
+            {
+                "alt": {
+                    "content": "",
+                    "tag": "plain_text"
+                },
+                "img_key": "img_v3_02d0_f4e1a845-fd8a-45bc-8f60-24df98bdc54h",
+                "tag": "img"
+            },
+            {
+                "tag": "div",
+                "text": {
+                    "content": "__{Null}__",
+                    "tag": "lark_md"
+                }
+            }
+        ],
+        "header": {
+            "template": "turquoise",
+            "title": {
+                "content": "📬自动推送\n凌云服务运行状态&友情链接可访问性报告",
+                "tag": "plain_text"
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+name: 状态检测
+on:
+    schedule:
+      - cron:  '0,30 * * * *'
+    workflow_dispatch:
+env:
+  WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+
+jobs:
+    check:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 获取仓库文件
+              uses: actions/checkout@v2
+
+            - name: 获取Python环境
+              uses: actions/setup-python@main
+              with:
+                python-version: '3.8'
+            - name: 安装第三方库
+              run: |
+                pip install -r requirements.txt
+            - name: 设置环境变量
+              run: |
+                echo "BASE_PATH=$(pwd)" >> $GITHUB_ENV && echo "PYTHONPATH=$(pwd)" >> $GITHUB_ENV
+            - name: 执行程序并推送
+              run: |
+                python main.py

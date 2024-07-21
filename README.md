@@ -5,3 +5,11 @@
 | 名称 | 值 |
 | :----: | :----: |
 | WEBHOOK_URL | 飞书/Lark机器人的Webhook链接 |
+
+## 更新说明
+__内部版本__: 0.1.7
+__发行版本__: 1.0.0-PREVIEW
+
+## 配置指南
+尚未发布
+请关注https://www.linyunlink.top/
